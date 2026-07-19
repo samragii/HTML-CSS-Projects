@@ -1,0 +1,57 @@
+body{
+background-image:url('images/study-notes-with-laptop-study-aesthetic-y19ds7vott1cfdke.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Inter', sans-serif;
+}
+#title{
+    color:rgba(2, 2, 11, 0.9);
+}
+#description{
+    font-size:25px;
+    font: weight 3px;
+    text-align:center;
+    color:rgba(2, 2, 11, 0.9);
+}
+#title{
+    text-align:center;
+}
+#survey-form{
+   color:whitesmoke;
+   background-color:rgb(13, 13, 42,0.9);  
+   width:50%;
+   padding:30px;
+   margin:10px;
+   border:2px solid rgb(13, 13, 42,0.9);
+   border-radius:20px;
+}
+.container{
+display:flex;
+justify-content:center;
+align-items:center;   
+}
+input[type=text],input[type=email],input[type=number],input[type=dropdown]
+{
+    width:100%;
+    padding:7px 10px;
+    margin:5px 0px;
+    box-sizing:border-box;
+}
+select{
+     width:100%;
+    padding:7px 10px;
+    margin:5px 0px;
+    box-sizing:border-box;  
+}
+input[type=submit]
+{
+    padding:7px 10px;
+    margin:5px 0px;
+    background-color:rgba(84, 188, 240, 0.9);
+    color:whitesmoke;
+    width:100%;
+    padding:7px 10px;
+    margin:5px 0px;
+    border:2px solid rgb(8, 12, 18);
+    border-radius:5px;
+}

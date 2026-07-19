@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css">
+    <!-- Link Google Fonts -->
+    <!-- Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to complete my survey. Your feedback is greatly appreciated!</p>
+    <div class="container">
+        <form id="survey-form">
+            <div>
+                <label id="name-label">Name:</label>
+                <input type="text" id="name" placeholder="John Hart" required>
+            </div>
+            <br>
+            <div>
+                <label id="email-label">E-mail:</label>
+                <input type="email" id="email" placeholder="example@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <label id="number-label">Age:</label>
+                <input type="number" id="number" placeholder="Age" min="18" max="60">
+            </div>
+            <br>
+            <div>
+                <p>What best describes your curret Status?</p>
+                <select name="describe" id="dropdown">
+                    <option value="student" name="hi">-Select-</option>
+                    <option value="student" name="hi">Student</option>
+                    <option value="Professional">Professional</option>
+                    <option value="Just learning for fun">Just learning for fun</option>
+                    <option value="audi" name="hi">Other</option>
+                </select>
+            </div>
+            <div>
+                <p>Will you recommed this website to others?</p>
+                <input type="radio" id="yes" name="hi" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="hi" value="no">
+                <label for="no">No</label>
+                <input type="radio" id="maybe" name="hi" value="maybe">
+                <label for="maybe">Maybe</label>
+            </div>
+            <div>
+                <p>What features would you like in a learning app?</p>
+                <label><input type="checkbox" name="features[]" value="Progress Tracking"> Python</label><br>
+                <label><input type="checkbox" name="features[]" value="Flashcards">C</label><br>
+                <label><input type="checkbox" name="features[]" value="AI Tutor">C++</label><br>
+                <label><input type="checkbox" name="features[]" value="Gamification">Java</label><br>
+                <label><input type="checkbox" name="features[]" value="Gamification">JavaScript</label><br>
+                <label><input type="checkbox" name="features[]" value="Gamification">SQL</label><br>
+                <label><input type="checkbox" name="features[]" value="Gamification">React</label>
+            </div>
+            <br>
+            <div>
+                <p>Any suggestions or ideas you'd like to share?</p>
+                <textarea id="suggestion" name="suggestion" rows="5" cols="80"
+                    placeholder="Write your suggestion here..."></textarea><br><br>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>
