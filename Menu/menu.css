@@ -1,0 +1,80 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body{
+    padding:min(50px,7%);
+}
+img {
+    object-fit: cover;
+    height: 200px; /* Uniform height */
+    border-style:solid;
+    border-width:2px;
+    border-color:white;
+    border-radius:10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    gap:10px;
+    padding:5px;
+    justify-content: center;
+    text-align: center;
+}
+.sub{
+    padding:5px;
+    margin:2px;
+    border-style:solid;
+    border-width:2px;
+    border-color:orange;
+    border-radius:5px;
+}
+.container button{
+    padding:5px;
+    margin:10px;
+    float:right;
+    border-style:solid;
+    border-width:1px;
+    border-color:orange;
+    border-radius:5px;
+    background-color:orange;
+    color:white;
+}
+.container button:hover{
+    background-color:darkorange;
+    cursor:pointer;
+    border-color:darkorange;
+}
+.sub{
+    transition:transform 0.1s ease;
+}
+.sub:hover img{
+    transform:scale(1.05);
+}
+.header h3{
+    font-family:"Playfair Display";
+    font-size:2em;
+    color:black;
+    padding:10px;
+}
+.sub p{
+    font-family:'Robot',sans-serif;
+    font-size:1em;
+}
+#price{
+   position:relative;
+   top:15px;
+}
+.sub .price{
+    background-color:white;
+    color:black;
+    border-color:white;
+    font-family:'Robot',sans-serif;
+    font-weight:150px;
+}
+.sub .price:hover{
+    background-color:white;
+    border-color:white;
+}
+

@@ -1,0 +1,45 @@
+/* This css added by Vvagicharla*/
+.supportTileContainer .container:last-of-type {
+      margin-bottom: 0px;
+}
+.downloadUpdaterHelp .support-container{
+      margin-bottom: 20px;
+}
+/* Used in downloadUpdaterHelp component*/
+.updateHelp-Download-Button{
+    min-width: 300px;
+}
+/*This is used in text with accordion service and warranty page*/
+.accordion-wrapper a {
+	color : #e01e3c;
+}
+.accordion-wrapper a.arrow-link {
+	color : #222021;
+}
+.accordion-wrapper .content p b{
+    color : #222021;
+}
+.accordion-wrapper table a {
+	color : #e01e3c;
+}
+/*Support Content BackTo */
+@media (min-width: 768px){
+    .backto-top-align {
+      margin-top: 40% !important;
+    }
+}
+/*Service and Warranty ol and ul alignment*/
+.textWithAccordion .intro ul li,.textWithAccordion .intro ol li{
+    margin-left: 15px;
+            }
+/*@media (min-width: 1024px) {
+.support .accordion.open .h4 svg polygon{
+fill: #222021 !important;
+}
+}*/
+@media (min-width: 768px) {
+.arrow-link .icon path {
+fill: #000; }}
+@media (min-width: 1024px) {
+.arrow-link .icon.icon-mobile {
+display: none !important; } }
