@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to bottom, #fbe7d3, #f7dcc7);
+}
+.container{
+    display:grid;
+    grid-template-rows:70px repeat(3,200px);
+    grid-template-columns:repeat(4,200px);
+    gap:30px;
+    padding:120px;
+    justify-content: center;
+    background-color:blanchedalmond;
+}
+.item img{
+    border: 2px solid rgba(200, 200, 200, 0.5);
+    border-radius: 5px;
+    padding:3px;
+    box-shadow:0 4px 8px black;
+}
+.item img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.header
+{
+    grid-column-start:1;
+    grid-column-end:5;
+    margin:20px;    
+}
+.header h3{
+    color:rgb(231, 131, 181);
+    font-family:"Lucida Handwriting";
+    font-size:2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
