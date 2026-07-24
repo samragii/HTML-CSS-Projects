@@ -1,0 +1,46 @@
+.header
+{
+    font-size:3em;
+    font-family:"Montserrat";
+    font-weight:bold;
+    color:#2C2C2C;
+}
+body{
+    margin:0px;
+    padding:0px;
+   
+}
+.main{
+    background-color:azure;
+    margin:70px;
+    padding:25px;
+   border-radius:10px;
+   border-width:10px;
+   border-style:solid;
+   border-color:rgb(138, 228, 228);
+}
+ h3 {
+    color:#2C2C2C;
+    font-family:Calibri;
+    font-size:25px;
+}
+h4 {
+    color:#2C2C2C;
+    font-family:Calibri;
+}
+h5 {
+    color:#2C2C2C;
+    font-family:Calibri;
+}
+.hr{
+    border:none;
+    height:5px;
+    background-color:#2C2C2C;
+    margin:20px 0;
+}
+.contactme
+{
+    margin-left:0px;
+    padding-left:0px;
+    text-align:"left";
+}
